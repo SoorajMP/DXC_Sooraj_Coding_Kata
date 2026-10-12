@@ -17,12 +17,12 @@ The service must:
 
 ## Exposed REST APIs
 
-- `POST /api/v1/accounts` - Create an account.
-- `GET /api/v1/accounts/{accountId}/balance` - Get an account balance.
-- `GET /api/v1/accounts/{accountId}/transactions` - Get an account's transaction history.
-- `POST /api/v1/accounts/{accountId}/deposits` - Deposit money into an account.
-- `POST /api/v1/accounts/{accountId}/withdrawals` - Withdraw money from an account.
-- `POST /api/v1/transfers` - Transfer money between two accounts.
+- `POST /api/v1/account` - Create an account.
+- `GET /api/v1/accounts/{accountId}/balancecheck` - Get an account balance.
+- `GET /api/v1/accounts/{accountId}/transaction` - Get an account's transaction history.
+- `POST /api/v1/accounts/{accountId}/deposit` - Deposit money into an account.
+- `POST /api/v1/accounts/{accountId}/withdrawal` - Withdraw money from an account.
+- `POST /api/v1/transfer` - Transfer money between two accounts.
 
 ## Entity Classes
 
