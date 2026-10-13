@@ -21,27 +21,6 @@ mvn clean install
 java -jar <<jar file in target folder`
 ```
 
-
-### Using IntelliJ IDE
-
-# DXC_Sooraj_Coding_Kata
-DXC  Coding Test Repo
-
-## Access the application using below Swagger URL
-Swagger UI: http://localhost:8080/swagger-ui.html
-
-
-## How to run the applicaiton
-
-This application is using Java 21 .
-
-### Using Maven command and Jar
-```bash 
-mvn clean install
-java -jar <<jar file in target folder`
-```
-
-
 ### Using IntelliJ IDE
 
 - Open the application in IntelliJ IDEA.
