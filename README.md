@@ -33,4 +33,7 @@ java -jar <<jar file in target folder`
 mvn spring-boot:run
 ```
 
-
+### How to run the test.
+```bash
+mvn test
+```
